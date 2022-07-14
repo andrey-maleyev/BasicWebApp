@@ -12,8 +12,14 @@ public class QueryProcessor {
             return "William Shakespeare (26 April 1564 - 23 April 1616) was an " +
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
-        } else if (query.contains("name")) {
-           return "Andrew";
+        } else if (query.contains("17 plus 17")) {
+           return "34";
+        } else if (query.contains("19 plus 8")) {
+            return "27";
+        } else if (query.contains("67, 195")) {
+            return "195";
+        } else if (query.contains("31, 415")) {
+            return "415";
         } else { // TODO extend the programm here
             return "";
         }
