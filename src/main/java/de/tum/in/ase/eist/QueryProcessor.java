@@ -12,7 +12,7 @@ public class QueryProcessor {
             return "William Shakespeare (26 April 1564 - 23 April 1616) was an " +
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
-        } else if (query.contains("primes")) {
+        } else if (query.contains("multiplied")) {
             int index_a = query.indexOf("is%20", 0) + 1;
             int index_b = query.indexOf("by%20", 0) + 1;
             int a = Integer.parseInt(query.substring(index_a, index_a + 1));
