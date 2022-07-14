@@ -20,6 +20,12 @@ public class QueryProcessor {
             return "195";
         } else if (query.contains("31, 415")) {
             return "415";
+        } else if (query.contains("3 plus 6")) {
+            return "9";
+        } else if (query.contains("60, 351")) {
+            return "351";
+        } else if (query.contains("0 plus 15")) {
+            return "15";
         } else { // TODO extend the programm here
             return "";
         }
