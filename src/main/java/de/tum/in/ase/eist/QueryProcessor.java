@@ -17,6 +17,8 @@ public class QueryProcessor {
             int index_b = query.indexOf("by%20", 0) + 1;
             int a = Integer.parseInt(query.substring(index_a, index_a + 1));
             int b = Integer.parseInt(query.substring(index_b, index_b + 1));
+            int c = a * b;
+            return String.valueOf(c);
         } else { // TODO extend the programm here
             return "";
         }
