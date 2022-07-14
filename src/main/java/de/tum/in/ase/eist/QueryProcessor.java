@@ -19,6 +19,8 @@ public class QueryProcessor {
             int b = Integer.parseInt(query.substring(index_b, index_b + 1));
             int c = a * b;
             return String.valueOf(c);
+        } else if (query.contains("Eiffel")) {
+            return "Paris";
         } else { // TODO extend the programm here
             return "";
         }
